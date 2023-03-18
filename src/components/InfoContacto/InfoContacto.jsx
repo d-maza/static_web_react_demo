@@ -17,9 +17,7 @@ const InfoContacto = () => {
           <Logo />
         </div>
         <div className="opinion">
-          <p>
-            Siguenos en..
-          </p>
+          <p>Siguenos en..</p>
         </div>
         <div className="text-inf">
           <div className="face">
@@ -32,7 +30,6 @@ const InfoContacto = () => {
               </a>
             </div>
           </div>
-
           <div className="inst">
             <div>
               <FaInstagram className="icono" />
@@ -59,7 +56,6 @@ const InfoContacto = () => {
             </div>
           </div>
           <div>
-            {/* <AiFillPhone className='icono'/>  */}
             <div className="was">
               <div>
                 <FaWhatsapp className="icono" />

@@ -1,20 +1,20 @@
-import styled from "styled-components"
+import styled from "styled-components";
 export const Container = styled.div`
-width: 100vw;
-height: 40px;
-background-color: rgb(231, 177, 10);
-`
+  width: 100vw;
+  height: 40px;
+  background-color: rgb(231, 177, 10);
+`;
 
 export const Wrapper = styled.div`
-width: 100%;
-max-width: 1300px;
-height: 100%;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-margin: auto;
-aligne-items: right;
-`
+  width: 100%;
+  max-width: 1300px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  aligne-items: right;
+`;
 export const LogoContainer = styled.div`
 margin-left: 0.5rem;
   display: flex;
@@ -28,21 +28,21 @@ margin-left: 0.5rem;
   svg{
     margin-right: 0.5rem;
   }
-`
+`;
 
 export const Menu = styled.ul`
-height: 100%;
-display: flex;
-justify-content: space-between;
-list-style: none;
-@media screen and max-width: 960px{
-    position:absolute;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  @media screen and max-width: 960px {
+    position: absolute;
     top: 70px;
     left: 0;
     width: 100%;
-    height: 90vh; 
-}
-`
+    height: 90vh;
+  }
+`;
 export const MenuItem = styled.li`
 height: 100%;
 aligne-items: right;
@@ -59,8 +59,8 @@ transition: 0.5s all ease;
     background-color: rgb(231, 177, 10);
     transition: 0.5s all ease;
 
-`
+`;
 
 export const FaFacebook = styled.div`
-    padding: 5px 5px;
-`
+  padding: 5px 5px;
+`;

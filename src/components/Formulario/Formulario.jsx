@@ -20,15 +20,15 @@ const Formulario = () => {
     //
     validationSchema: Yup.object({
       nombre: Yup.string()
-        .required("el campo nombre es requerido")
-        .min(3, "el campo nombre minimo ha de tener 3 caracteres")
-        .max(15, "el campo nombre tiene como maximo 15 caracteres"),
+        .required("El campo nombre es requerido")
+        .min(3, "El campo nombre minimo ha de tener 3 caracteres")
+        .max(15, "El campo nombre tiene como maximo 15 caracteres"),
       asunto: Yup.string().min(5, "minimo tiene que tener 5 caracteres"),
       mail: Yup.string()
-        .required("campo requerido")
-        .email("el formato de email es incorrecto"),
+        .required("Campo requerido")
+        .email("El formato de email es incorrecto"),
       ciudad: Yup.string(),
-      telefono: Yup.number().required("el campo telefono es obligatorio"),
+      telefono: Yup.number().required("El campo telefono es obligatorio"),
       pedido: Yup.string(),
     }),
     onSubmit: (Values) => {
@@ -39,21 +39,16 @@ const Formulario = () => {
   return (
     <Fragment>
       <form
-        action="https://formsubmit.co/grupoelsabordeyei0711ca@gmail.com"
+        action="https://formsubmit.co/tucorreo@gmail.com"
         method="POST"
         className="form-react"
-        margin={'0'}
+        margin={"0"}
       >
         <div className="formulario-ori shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-          {/* <Animacion/> */}
-
-          <FormControl>
+          <FormControl> 
             <FormControl isRequired>
-             
-                <h1 className="border">PEDIDO</h1>
-      
+              <h1 className="fs-2 text-info fw-semibold">PEDIDO</h1>
               <FormLabel className="texto">Nombre</FormLabel>
-
               <Input
                 type="text"
                 placeholder="nombre completo"
@@ -67,10 +62,8 @@ const Formulario = () => {
                 <div className="error">{Formik.errors.nombre}</div>
               ) : null}
             </FormControl>
-  
             <FormControl>
               <FormLabel className="texto">Email</FormLabel>
-
               <Input
                 type="email"
                 name="mail"
@@ -85,7 +78,6 @@ const Formulario = () => {
             </FormControl>
             <FormControl>
               <FormLabel className="texto">Ciudad</FormLabel>
-
               <Input
                 type="text"
                 name="ciudad"
@@ -97,7 +89,6 @@ const Formulario = () => {
             </FormControl>
             <FormControl>
               <FormLabel className="texto">Telefono</FormLabel>
-
               <Input
                 type="number"
                 name="telefono"
@@ -110,7 +101,6 @@ const Formulario = () => {
                 <div className="error">{Formik.errors.telefono}</div>
               ) : null}
             </FormControl>
-
             <FormControl>
               <FormLabel className="texto">Mensaje</FormLabel>
               <Textarea
@@ -122,7 +112,6 @@ const Formulario = () => {
                 value={Formik.values.pedido}
               />
             </FormControl>
-
             <Button
               colorScheme=""
               className="boton"

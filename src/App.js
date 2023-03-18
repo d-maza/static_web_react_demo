@@ -5,7 +5,6 @@ import QuienesSomos from "./pages/QuienesSomos";
 import Productos from "./pages/Productos";
 import Contacto from "./pages/Contacto";
 
-
 function App() {
 
   useEffect(() => {

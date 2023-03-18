@@ -6,11 +6,11 @@ import Cards from "../components/Cards/Cards";
 
 export default function Productos() {
   return (
-    <div className='phater'>
-        <div className="cabecera">
+    <div className="phater">
+      <div className="cabecera">
         <Logo />
-       <Navbar />
-    </div>
+        <Navbar />
+      </div>
       <div className="wrapper">
         <Cards />
       </div>
@@ -18,6 +18,5 @@ export default function Productos() {
         <Footer />
       </div>
     </div>
-    
-  )
+  );
 }

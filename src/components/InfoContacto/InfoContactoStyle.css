@@ -1,57 +1,47 @@
-
-.contacto{
-
-    text-align: center;
-    font-size: x-large;
+.contacto {
+  text-align: center;
+  font-size: x-large;
 }
-.info{
-    margin-bottom: 0;
-    border: 1px;
-   display: inline-block;
-   margin: auto;
-   text-align: center;
-   width: 300px;
-    min-height: 40vh;
-    padding: 10px 20px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    background-color: aliceblue;
-    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+.info {
+  margin-bottom: 0;
+  border: 1px;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 300px;
+  min-height: 40vh;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: aliceblue;
+  box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
 }
 
-
-.opinion p{
-    
-    color:black ;
-    width: 70%;
-    text-align: justify;
-    margin-left: 20px;
-    font-size: medium;
+.opinion p {
+  color: black;
+  width: 70%;
+  text-align: justify;
+  margin-left: 20px;
+  font-size: medium;
 }
-.text-inf{
-    display:grid;
-    grid-template-columns: auto;
-    
-    /* flex-wrap: wrap;
-    justify-content: space-between; */
-    color: black; 
-    width: 100%;
-    margin: 0;
-    padding: 10px ;
-   
+.text-inf {
+  display: grid;
+  grid-template-columns: auto;
+  color: black;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
 }
-.enlaces{
-    
-    position: relative;
-    font-size:15px;
+.enlaces {
+  position: relative;
+  font-size: 15px;
 }
 
-.icono{
-    font-size: x-large;
-    float: left;
-    
+.icono {
+  font-size: x-large;
+  float: left;
 }
 
-.logo-inf{
-    align-items: center;
+.logo-inf {
+  align-items: center;
 }
