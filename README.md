@@ -1,5 +1,4 @@
-![Logo](https://raw.githubusercontent.com/d-maza/static_web_react_demo/main/src/assets/DiveCode.png)
-
+<p align="left"> <img src= "https://raw.githubusercontent.com/d-maza/static_web_react_demo/main/src/assets/DiveCode-bg.png" /> </p>
 
 # static_web_react_demo
 
