@@ -1,4 +1,4 @@
-<p align="left"> <img src= "https://raw.githubusercontent.com/d-maza/static_web_react_demo/main/src/assets/DiveCode-bg.png" /> </p>
+<p align="center"> <img src= "https://raw.githubusercontent.com/d-maza/static_web_react_demo/main/src/assets/DiveCode-bg.png" /> </p>
 
 # static_web_react_demo
 
